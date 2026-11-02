@@ -4,6 +4,7 @@
 <title>Lebensmittel – Echter Preis</title>
 <meta name="description" content="Lebensmittel: Amazon-Deals, gegen die Preishistorie geprüft. Werbung: Affiliate-Links.">
 <meta property="og:title" content="Lebensmittel – Echter Preis"><meta property="og:description" content="Lebensmittel: Amazon-Deals, gegen die Preishistorie geprüft. Werbung: Affiliate-Links."><meta name="theme-color" content="#121216">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%94%3C/text%3E%3C/svg%3E">
 <style>.bfkopf{background:linear-gradient(135deg,#000,#1f1f2a);border:1.5px solid var(--gold);border-radius:18px;padding:18px 16px;text-align:center;margin:10px 0 14px}.bfkopf h1{margin:0 0 6px;font-size:26px}.bfkopf h1 span{color:var(--gold)}.bfz{font-size:17px;margin:8px 0 4px}.bfz b{color:var(--gold);font-size:22px}.text{max-width:720px;margin:0 auto}.text h3{font-size:16px;margin:16px 2px 6px}.text p{color:#d1d5db;font-size:14.5px;margin:0 2px 10px}.text a{color:var(--gruen)}.bfband{display:block;text-decoration:none;color:var(--tx);background:linear-gradient(135deg,#000,#26262f);border:1.5px solid var(--gold);border-radius:14px;padding:10px 14px;margin:6px 0 10px;font-weight:700;text-align:center}.bfband span{color:var(--gold)}
 :root{--bg:#121216;--card:#1E1E26;--tx:#fff;--mut:#9CA3AF;--ac:#10B981;--actx:#04261b;--gold:#f59e0b;--rot:#fff;--gruen:#34d399;--rand:rgba(255,255,255,.09);--fok:rgba(255,165,0,.25)}
@@ -16,7 +17,7 @@ header{padding:14px 4px 4px;text-align:center}
 .logo span{background:var(--gold);color:#1a1205;padding:0 8px;border-radius:8px}
 .vid{display:flex;gap:8px;align-items:center;overflow-x:auto;white-space:nowrap;scrollbar-width:none;margin:8px -16px 2px;padding:2px 16px}.vid::-webkit-scrollbar{display:none}
 .vid>span{flex:0 0 auto;color:var(--mut);font-size:13px;font-weight:600}
-.vchip{flex:0 0 auto;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.6);color:#fde68a;border-radius:999px;padding:6px 12px;text-decoration:none;font-size:13.5px;font-weight:700}.vchip b{color:#4ade80;font-weight:800;margin-left:4px}.vchip:hover{border-color:var(--gold)}
+.vchip{flex:0 0 auto;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.6);color:#fde68a;border-radius:999px;padding:6px 12px;text-decoration:none;font-size:13.5px;font-weight:700}.vchip .b{color:#4ade80;font-weight:800;margin-left:4px}.vchip:hover{border-color:var(--gold)}
 .hallo{margin:6px auto 8px;color:var(--mut);max-width:520px;font-size:14px}
 .pillen{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:0}
 .pille{background:var(--card);border:1px solid var(--rand);border-radius:999px;padding:2px 9px;font-size:11.5px;color:var(--mut)}
@@ -27,7 +28,7 @@ nav.chips{position:sticky;top:0;z-index:5;margin:8px -16px 12px;padding:10px 16p
 nav.chips::-webkit-scrollbar{display:none}
 .chip{flex:0 0 auto;background:var(--card);border:1px solid var(--rand);border-radius:999px;padding:8px 14px;color:var(--tx);text-decoration:none;font-size:14.5px;font-weight:600}
 .chip span{color:var(--mut);font-weight:500;margin-left:3px}
-.pnav{display:flex;gap:8px;align-items:center;overflow-x:auto;white-space:nowrap;scrollbar-width:none;margin:-4px -16px 12px;padding:0 16px}.pnav::-webkit-scrollbar{display:none}.pnav>b{flex:0 0 auto;color:var(--mut);font-size:13px;font-weight:600}.pnav .chip{padding:6px 12px;font-size:13.5px}
+.pnav{display:flex;gap:8px;align-items:center;overflow-x:auto;white-space:nowrap;scrollbar-width:none;margin:-4px -16px 12px;padding:0 16px}.pnav::-webkit-scrollbar{display:none}.pnav>.b{flex:0 0 auto;color:var(--mut);font-size:13px;font-weight:600}.pnav .chip{padding:6px 12px;font-size:13.5px}
 .nr{color:#fde68a;background:rgba(245,158,11,.14);border:1px solid rgba(245,158,11,.75);font-size:13px;font-weight:800;letter-spacing:.2px;border-radius:999px;padding:0 8px;margin-left:2px}.hk .nr{position:absolute;left:8px;bottom:8px;margin:0;background:rgba(0,0,0,.75);color:#fff;border:1.5px solid var(--gold);padding:2px 9px;font-size:13.5px}
 .chip.on{background:var(--ac);color:var(--actx);border-color:var(--ac)}.chip.on span{color:#0b5e43}
 h2{font-size:19px;margin:18px 2px 10px}
@@ -37,8 +38,8 @@ h2{font-size:19px;margin:18px 2px 10px}
 .bild{position:relative;aspect-ratio:4/3;background:#2a2a35}.bild img{width:100%;height:100%;object-fit:cover;display:block}
 .hk .pct{left:8px;top:8px}.hk .urteil{right:8px;top:8px}
 .hk .txt{padding:9px 10px 11px;display:flex;flex-direction:column;flex:1}
-.hk h3{margin:0 0 4px;font-size:14px;line-height:1.3;min-height:2.6em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.hk .preis{flex-direction:column;align-items:flex-start;gap:0;margin-bottom:8px}.hk .preis b{font-size:22px}.hk .preis s{font-size:12px}
+.hk .ti{margin:0 0 4px;font-size:14px;line-height:1.3;min-height:2.6em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.hk .preis{flex-direction:column;align-items:flex-start;gap:0;margin-bottom:8px}.hk .preis .b{font-size:22px}.hk .preis s{font-size:12px}
 .spar{display:inline-block;align-self:flex-start;color:#4ade80;background:rgba(52,211,153,.14);border:1px solid rgba(52,211,153,.5);border-radius:999px;padding:1px 8px;font-weight:800;font-size:12.5px;line-height:1.5}
 .hk .cta{margin-top:auto;padding:9px 4px;font-size:13px;border-radius:10px;white-space:nowrap}
 .hn{margin:0 2px 8px;font-size:11.5px}
@@ -47,21 +48,21 @@ h2{font-size:19px;margin:18px 2px 10px}
 .neu{position:absolute;left:6px;top:6px;z-index:1;background:#ef4444;color:#fff;font-weight:800;font-size:10.5px;letter-spacing:.2px;border-radius:999px;padding:2px 7px;box-shadow:0 2px 8px rgba(0,0,0,.45)}
 .hk .neu{left:8px;top:38px;font-size:11.5px;padding:3px 9px}.hk .neu.o{top:8px}
 .ki{position:absolute;right:5px;bottom:5px;background:rgba(0,0,0,.5);color:#cbd5e1;border-radius:5px;padding:0 4px;font-size:9px;font-style:normal;line-height:14px;letter-spacing:.2px}
-.preis{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}.preis b{font-size:26px;color:var(--rot);letter-spacing:-.5px}.preis s{color:#ff6b6b;font-size:13px}
+.preis{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}.preis .b{font-size:26px;color:var(--rot);letter-spacing:-.5px}.preis s{color:#ff6b6b;font-size:13px}
 .cta{display:block;text-align:center;background:var(--ac);color:var(--actx);font-weight:800;border-radius:12px;padding:12px;font-size:15.5px}
 .liste{display:grid;grid-template-columns:1fr;gap:10px}
 .row{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--rand);border-radius:16px;padding:10px;margin:0;text-decoration:none;color:var(--tx)}
 .row .im{position:relative;flex:0 0 auto;width:92px;height:69px;border-radius:10px;overflow:hidden;background:#2a2a35}.row .im img{width:100%;height:100%;object-fit:cover;display:block}
-.row.arch{background:#17171d}.row.arch .pc{background:#2a2a35;color:#9CA3AF}.row.arch h3{color:#b6bcc8}.pfx{color:var(--mut);font-size:24px;flex:0 0 auto;padding-right:4px}
+.row.arch{background:#17171d}.row.arch .pc{background:#2a2a35;color:#9CA3AF}.row.arch .ti{color:#b6bcc8}.pfx{color:var(--mut);font-size:24px;flex:0 0 auto;padding-right:4px}
 .row:active,.row:hover{border-color:var(--ac)}
 #dein{margin:0 0 16px}#dein h2{margin:0 0 8px}
 .row.dealgross{border:2px solid var(--gold);box-shadow:0 6px 22px rgba(245,158,11,.25);padding:12px;flex-direction:column;align-items:stretch;max-width:520px;margin:0 auto}
-.row.dealgross .im{width:100%;height:auto;aspect-ratio:4/3}.row.dealgross h3{font-size:17px}.row.dealgross .p b{font-size:26px}.row.dealgross .cta{margin-top:6px}
-.row .i{flex:1;min-width:0}.row h3{margin:0 0 3px;font-size:15px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.row .p{display:flex;align-items:baseline;gap:4px 8px;flex-wrap:wrap}.row .p b{font-size:18px;color:var(--rot)}.row .p s{color:#ff6b6b;font-size:13px}
+.row.dealgross .im{width:100%;height:auto;aspect-ratio:4/3}.row.dealgross .ti{font-size:17px}.row.dealgross .p .b{font-size:26px}.row.dealgross .cta{margin-top:6px}
+.row .i{flex:1;min-width:0}.row .ti{margin:0 0 3px;font-size:15px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row .p{display:flex;align-items:baseline;gap:4px 8px;flex-wrap:wrap}.row .p .b{font-size:18px;color:var(--rot)}.row .p s{color:#ff6b6b;font-size:13px}
 .pc{background:rgba(245,158,11,.18);color:var(--gold);font-weight:700;font-size:12px;border-radius:999px;padding:2px 8px}
 .bdg{background:rgba(255,255,255,.08);color:#d1d5db;font-weight:600;font-size:11.5px;border-radius:999px;padding:1px 8px}
-.bs .p b{color:var(--tx)}.bs .p .ab{color:var(--gruen);font-weight:700;font-size:14px}.klein{color:var(--mut);font-size:12px}
+.bs .p .b{color:var(--tx)}.bs .p .ab{color:var(--gruen);font-weight:700;font-size:14px}.klein{color:var(--mut);font-size:12px}
 .cta2{display:block;margin-top:5px;color:var(--gruen);font-weight:700;font-size:13.5px}
 .pf{color:var(--mut);font-size:24px;flex:0 0 auto;padding-right:4px}
 .mehr{display:block;width:100%;margin:12px 0 4px;background:var(--card);border:1.5px solid var(--rand);color:var(--tx);border-radius:14px;padding:12px;font-size:15.5px;font-weight:700;cursor:pointer}
@@ -71,16 +72,16 @@ h2{font-size:19px;margin:18px 2px 10px}
 footer{color:var(--mut);font-size:12px;margin-top:30px;text-align:center;border-top:1px solid var(--rand);padding-top:16px}footer p{margin:0 0 8px}footer a{color:#cbd5e1}
 @keyframes glow{0%,75%{box-shadow:0 0 0 3px rgba(255,165,0,.95),0 0 30px rgba(255,165,0,.6)}100%{box-shadow:0 0 0 0 rgba(255,165,0,0)}}
 .glow,.row:target,.hk:target{animation:glow 3s ease-out}
-@media(min-width:640px){.hgrid{grid-template-columns:repeat(4,1fr)}.hk h3{font-size:13.5px}.hk .preis b{font-size:20px}}
+@media(min-width:640px){.hgrid{grid-template-columns:repeat(4,1fr)}.hk .ti{font-size:13.5px}.hk .preis .b{font-size:20px}}
 @media(min-width:820px){.liste{grid-template-columns:1fr 1fr}.logo{font-size:32px}}
-.info{margin:4px 0 0;font-size:11px;color:var(--mut);border:0;line-height:1.35}.bfband{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:6px 12px;font-size:14px;line-height:1.3}@media(max-width:639px){header{padding:8px 4px 2px}.suche{margin:6px 0 0}.suche input{padding:10px 14px}.vid{margin:5px -16px 0}.bfband{margin:4px 0 4px;border-radius:12px}nav.chips,.chips{margin:4px -16px 8px;padding:6px 16px}.pnav{margin:-4px -16px 8px}#hero h2{margin:0 0 6px}#dein{margin:0 0 10px}}</style></head><body><main>
-<header><h1 class="logo">🔔 Echter <span>Preis</span></h1><p class="info">✓ 65 Deals • Stand: heute 10:35 • *Werbung / Affiliate-Links</p></header>
+.info{margin:4px 0 0;font-size:11px;color:var(--mut);border:0;line-height:1.35}.bfband{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:6px 12px;font-size:14px;line-height:1.3}@media(max-width:639px){header{padding:8px 4px 2px}.suche{margin:6px 0 0}.suche input{padding:10px 14px}.vid{margin:5px -16px 0}.bfband{margin:4px 0 4px;border-radius:12px}nav.chips,.chips{margin:4px -16px 8px;padding:6px 16px}.pnav{margin:-4px -16px 8px}#hero h2{margin:0 0 6px}#dein{margin:0 0 10px}}.logo small{display:block;font-size:12.5px;font-weight:600;color:var(--mut);letter-spacing:0;margin-top:3px}.ti{font-weight:700;margin:0}.b{font-weight:700}.seo{margin:30px auto 0}.seo h2{font-size:17px;margin:0 2px 8px}.teilen{text-align:center;margin:22px 0 0}.teilen h2{font-size:15px;margin:0 0 8px;color:var(--mut)}.teilen .tl{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}.teilen button.chip{cursor:pointer;font-family:inherit}</style></head><body><main>
+<header><h1 class="logo">🔔 Echter <span>Preis</span><small>Geprüfte Amazon-Deals mit echtem Preischeck</small></h1><p class="info">✓ 65 Deals • Stand: heute 11:15 • *Werbung / Affiliate-Links</p></header>
 <nav class="chips" aria-label="Kategorien"><a class="chip" href="../index.html">Alle</a><a class="chip" href="../index.html#highlights">✨ Highlights <span>42</span></a><a class="chip" href="../index.html#bestseller">⭐ Bestseller <span>5</span></a><a class="chip" href="../kategorie/spielzeug.html">Spielzeug &amp; Spiele <span>16</span></a><a class="chip" href="../kategorie/gaming.html">Gaming <span>10</span></a><a class="chip" href="../kategorie/haushalt.html">Haushalt &amp; Küche <span>11</span></a><a class="chip" href="../kategorie/elektronik.html">Elektronik &amp; Audio <span>12</span></a><a class="chip" href="../kategorie/mode.html">Mode &amp; Sport <span>5</span></a><a class="chip" href="../kategorie/beauty.html">Beauty &amp; Pflege <span>8</span></a><a class="chip" href="../kategorie/werkzeug.html">Werkzeug &amp; Garten <span>2</span></a><a class="chip on" href="../kategorie/lebensmittel.html">Lebensmittel <span>1</span></a><a class="chip" href="../kategorie/medien.html">Musik, Filme &amp; Bücher <span>1</span></a><a class="chip" href="../kategorie/weiteres.html">Weiteres <span>4</span></a><a class="chip" href="../archiv.html">📦 Archiv <span>34</span></a></nav>
 <h2>Lebensmittel</h2>
-<div class="liste"><a class="row" id="k-B0B9NR4TJR" data-asin="B0B9NR4TJR" data-nr="62" data-s="prime/mm/saturn) philips senseo maestro lebensmittel snack" data-item data-p="26" data-hl=1 data-mehr=1 data-g="lebensmittel" href="https://www.amazon.de/dp/B0B9NR4TJR?tag=echterpreis-21" rel="sponsored noopener" target="_blank"><span class="im"><img src="../img/deal/B0B9NR4TJR.jpg" alt="Produkt-Symbolbild (KI)" loading="lazy"><i class="ki">KI</i></span><div class="i"><h3>Prime/MM/Saturn) PHILIPS Senseo Maestro</h3><div class="p"><b>69,00 €</b><s>Ø 93,04 €</s><span class="spar">Du sparst 24,04 €</span><span class="pc">−26 %</span><span class="bdg">Geprüfter Deal</span><span class="nr">#62</span></div><span class="cta2">Bei Amazon prüfen ›</span></div><span class="pf">›</span></a></div>
+<div class="liste"><a class="row" id="k-B0B9NR4TJR" data-asin="B0B9NR4TJR" data-nr="62" data-s="prime/mm/saturn) philips senseo maestro lebensmittel snack" data-item data-p="26" data-hl=1 data-mehr=1 data-g="lebensmittel" href="https://www.amazon.de/dp/B0B9NR4TJR?tag=echterpreis-21" rel="sponsored noopener" target="_blank"><span class="im"><img src="../img/deal/B0B9NR4TJR.jpg" alt="Produkt-Symbolbild (KI)" loading="lazy"><i class="ki">KI</i></span><div class="i"><p class="ti">Prime/MM/Saturn) PHILIPS Senseo Maestro</p><div class="p"><span class="b">69,00 €</span><s>Ø 93,04 €</s><span class="spar">Du sparst 24,04 €</span><span class="pc">−26 %</span><span class="bdg">Geprüfter Deal</span><span class="nr">#62</span></div><span class="cta2">Bei Amazon prüfen ›</span></div><span class="pf">›</span></a></div>
 <a class="zur" href="../index.html">← Alle Deals</a>
-<footer><p><b>Werbung:</b> Alle Links zu Amazon sind Affiliate-Links. Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Für dich ändert sich am Preis nichts.</p>
-<p>Preise und Verfügbarkeit können sich ändern; maßgeblich ist der Preis bei Amazon zum Kaufzeitpunkt. Der Durchschnittspreis (Ø) stammt aus der Preishistorie. Zuletzt aktualisiert: 02.11.2026 10:35.</p>
+<footer><p><span class="b">Werbung:</span> Alle Links zu Amazon sind Affiliate-Links. Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Für dich ändert sich am Preis nichts.</p>
+<p>Preise und Verfügbarkeit können sich ändern; maßgeblich ist der Preis bei Amazon zum Kaufzeitpunkt. Der Durchschnittspreis (Ø) stammt aus der Preishistorie. Zuletzt aktualisiert: 02.11.2026 11:15.</p>
 <p>Produktbilder sind KI-generierte Symbolbilder und zeigen nicht das tatsächliche Produkt.</p>
 <p class="rechtl"><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a></p></footer>
 </main><script>(function(){var d=new Date(),h=d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2);[].forEach.call(document.querySelectorAll('.neu[data-d]'),function(x){if(x.getAttribute('data-d')!==h)x.parentNode.removeChild(x)})})();</script><script data-goatcounter="https://echterpreis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><script>document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="amazon.de/dp/"]');if(!a)return;var m=a.href.match(/dp\/([A-Z0-9]{10})/);try{window.goatcounter&&window.goatcounter.count({path:'klick/'+(m?m[1]:'amazon'),title:((a.querySelector('h3')||{}).textContent||'Amazon-Klick').trim(),event:true})}catch(x){}},true);</script><script>(function(){var T={"ig": "echterpreis-ig-21", "tt": "echterpreis-tt-21", "pin": "echterpreis-pin-21"};try{var q=new URLSearchParams(location.search).get('q');if(q&&T[q])sessionStorage.setItem('q',q);var s=sessionStorage.getItem('q');if(s&&T[s]){[].forEach.call(document.querySelectorAll('a[href*="amazon.de"]'),function(a){a.href=a.href.replace(/tag=[^&]+/,'tag='+T[s])})}}catch(x){}})();</script></body></html>
