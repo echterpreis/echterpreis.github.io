@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /pinterest-login.html
+
+Sitemap: https://www.echterpreis.de/sitemap.xml
